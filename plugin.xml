@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin name="Inference Inspector" version="0.1.0">
+   
+    <extension id="SyntacticModuleExtractorView"
+              point="org.protege.editor.core.application.ViewComponent">
+      <label value="Syntactic Module Extractor"/>
+      <class value="org.whatif.tools.view.SyntacticModuleExtractorView"/>
+      <category value="@org.protege.ontologycategory"/>
+   </extension>
+    
+</plugin>
