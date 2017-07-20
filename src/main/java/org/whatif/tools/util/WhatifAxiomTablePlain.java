@@ -134,7 +134,6 @@ public class WhatifAxiomTablePlain extends JTable {
 
 	@Override
 	public Class<?> getColumnClass(int c) {
-		System.out.println(c);
 		return getValueAt(0, c).getClass();
 	}
 
